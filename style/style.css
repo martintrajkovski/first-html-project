@@ -1,0 +1,721 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pt-100{
+	padding-top: 120px;
+}
+
+.pb-custom{
+	margin-bottom: 100px;
+}
+
+.pb-custom-second{
+	margin-bottom: 100px;
+	margin-left: 120px;
+}
+
+.custom-400{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.custom-700{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+/************************************************custom clases************************************************/
+
+div.hero,
+div.hero1,
+div.bg-frame,
+div.bg-light,
+div.bg-circle-form,
+div.bg-ellipse,
+div.bg-carousel-1,
+div.bg-carousel-2,
+div.bg-carousel-3,
+div.bg-carousel-4,
+div.bg-carousel-5,
+div.bg-carousel-6,
+div.bg-carousel-7{
+	background-image: url("../images/hero.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 1024px;
+}
+
+div.hero-parent{
+	position: relative;
+}
+
+div.circle{
+	background-image: url("../images/Group.png");
+	background-size: cover;
+	height: 620px;
+	width: 620px;
+	position: absolute;
+	left: 50%;
+	top: 182px;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.circle div.tex{
+	text-align: center;
+	color: white;
+}
+
+div.hero1{
+	background-image: url("../images/hero1.png");
+	height: 1024px;
+}
+
+div.bg-frame{
+	background-image: url("../images/Frame.png");
+	height: 738px;
+}
+
+div.bg-light{
+	background-image: url("../images/Rectangle_4.png");
+	height: 874px;
+}
+
+div.bg-circle-form{
+	background-image: url("../images/Frame_1.png");
+	width: 720px;
+	height: 755px;
+	margin: 100px auto;
+}
+
+div.bg-ellipse{
+	background-image: url("../images/Ellipse.png");
+	width: 1960px;
+	height: 520px;
+}
+
+div.bg-carousel-1{
+	background-image: url("../images/carousel-bottom-1.png");
+	height: 300px;
+}
+
+div.bg-carousel-2{
+	background-image: url("../images/carousel-bottom-2.png");
+	height: 300px;
+}
+
+div.bg-carousel-3{
+	background-image: url("../images/carousel-bottom-3.png");
+	height: 300px;
+}
+
+div.bg-carousel-4{
+	background-image: url("../images/carousel-bottom-4.png");
+	height: 300px;
+}
+
+div.bg-carousel-5{
+	background-image: url("../images/carousel-bottom-5.png");
+	height: 300px;
+}
+
+div.bg-carousel-6{
+	background-image: url("../images/carousel-bottom-6.png");
+	height: 300px;
+}
+
+div.bg-carousel-7{
+	background-image: url("../images/carousel-bottom-7.png");
+	height: 300px;
+}
+
+div.hero p.title{
+	font-size: 25px;
+	font-weight: bold;
+	color: #0A0A0A;
+}
+
+div.hero p span{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #606060;
+}
+
+div.hero p{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #606060;
+}
+
+div.hero1{
+	position: relative;
+}
+
+div.hero1 img{
+	position: absolute;
+	top: 25%;
+	left: -41%;
+}
+
+div.hero1 img.arrow{
+	position: absolute;	
+	top: 70%;
+	left: -4%;
+}
+
+div.tex p{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	width: 299px;
+	height: 156px;
+	margin-top: 45px;
+}
+
+div.tex p.second{
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 49px;
+	margin-bottom: -60px;
+}
+
+/*******************************************************hero code********************************************************/
+
+div.pt-custom p.first{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+div.pt-custom p.second{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+div.costum-card h2{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: 80px;
+}
+
+div.pt-custom button,
+div.middle button,
+div.form-group button{
+	background: #007BFF;
+	color: white;
+	padding: 16px 32px;
+	border-radius: 10px;
+	border: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;	
+}
+
+/********************************************************card code*********************************************************/
+
+button.button-center{
+	background: #007BFF;
+	color: white;
+	padding: 10px 32px;
+	border-radius: 10px;
+	border: none;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 130%;
+	margin-bottom: 80px;
+}
+
+div.frame{
+	padding: 200px 90px 0 100px;
+}
+
+div.frame p.first{
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 49px;
+}
+
+div.frame p.second{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/********************************************************bg-frame code*****************************************************/
+
+div.bg-smoke{
+	background: #D8D8D8;
+}
+
+div.scholarships p.one,
+div.scholarships p.three{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+div.scholarships p.two,
+div.middle p.second{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+div.scholarships p.four{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+div.middle p.first{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.card-img-overlay{
+	top: auto!important;
+}
+
+/*********************************************************bg-smoke code*****************************************************/
+
+div.text-form p.first{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	width: 540px;
+}
+
+div.text-form p.second{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	width: 540px;
+}
+
+div.bg-circle-form div.form-group{
+	width: 448px;
+}
+
+div.bg-circle-form div.form-group input{
+	color: #A4A4A4;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+div.bg-circle-form div.form-group select.form-control{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;	
+}
+
+div.form-group button{
+	padding: 8px 32px;
+}
+
+div.rel{
+	position: relative;
+}
+
+div.rel img{
+	position: absolute;
+	bottom: 35%;
+	left: 96%;
+	transform: translateX(-96%);
+}
+
+/*******************************************************bg-circle-form code*************************************************/
+
+div.bg-ellipse div.card{
+	padding: 80px 10px;	
+	width: 285px;
+	height: 336px;
+	text-align: center;
+	margin-top: 80px;
+	border:3px solid transparent;
+    background: linear-gradient(#fff,#fff) padding-box,
+ 	linear-gradient(231.38deg, #7d42ff -5.3%, #08fcff 119.03%) border-box;
+}
+
+div.bg-ellipse div.card div.card-body h5{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+div.bg-ellipse div.card div.card-body p{
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+/*********************************************************bg-ellipse-code***************************************************/
+
+.carousel-indicators li{
+	height: 20px !important;
+	width: 20px !important;
+	border-radius: 50% !important;
+	background-color: #243F60;
+}
+
+div h5.soon{
+	font-weight: 700;
+	font-size: 112px;
+	color: #FAAD01;
+	padding-bottom: 500px;
+}
+
+.carousel-indicators{
+        bottom: -80px !important;
+    }
+
+/**********************************************************carousel code****************************************************/
+
+footer{
+	background: #243F60;	
+	color: white;
+	margin-top: 100px;
+}
+
+footer a i{
+	color: white;
+	padding-right: 20px;
+}
+
+footer h5{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+footer p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+footer p i{
+	margin-right: 10px;
+}
+
+footer div.end p{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+/************************************************************footer code*****************************************************/
+
+@media screen and (max-width: 426px){
+	div.hero,
+	div.hero1{
+		height: 350px;
+	}
+
+	div.hero img{
+		margin-right: 100px;
+	}
+
+	div.circle{
+		background-image: url("");
+	}
+
+	div.form-inline p{
+		display: none;
+	}
+
+	div.hero1 img.circle{
+		display: none;
+	}
+
+	div.circle div.tex{
+		margin-bottom: 600px;
+	}
+
+	div.tex p{
+		color: black;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 120%;
+		margin-bottom: -35px;
+    	width: 299px;
+    	height: 48px;
+	}
+
+	div.tex p.second{
+		font-weight: 800;
+		font-size: 24px;
+		line-height: 130%;
+		width: 179px;
+		height: 31px;
+		margin-left: 64px;
+	}
+
+	div.tex img.arrow{
+		margin-top: 70px;
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		margin-left: 133px;
+	}
+
+	/*****************************hero-code****************************/
+
+	div.costum-card div.card{
+		height: 488px;
+		width: 350px;
+		margin-bottom: 150px;
+	}
+
+	div.costum-card h2{
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 120%;
+		margin-top: 15px;
+	}
+
+	div.costum-card div.card p.first,
+	div.costum-card div.card button{
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	div.costum-card div.card p.second{
+		font-size: 20px;
+		line-height: 120%;
+	}
+
+	div.costum-card div.last-card{
+		display: none;
+	}
+
+	div.long-card{
+		bottom: -130px!important;
+	}
+
+	/*******************************card-code****************************/
+
+	button.button-center{
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 0px;
+	}
+
+	div.bg-frame{
+		background-image: url("../images/frame-mobile");
+		height: 575px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	div.frame{
+		padding: 20px 18px 0 30px;
+	}
+
+	div.frame p.first{
+		font-size: 24px;
+	}
+
+	div.frame p.second{
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+ 	/*******************************bg-frame code*****************************/
+
+ div.bg-smoke{
+ 	background: white;
+ }
+
+ div.scholarships p.one{
+ 	font-weight: 400px;
+ 	font-size: 18px;
+ 	line-height: 22px;
+ }
+
+ div.scholarships p.two{
+ 	font-weight: 700px;
+ 	font-size: 20px;
+ 	line-height: 120%;
+ }
+
+ div.scholarships p.three{
+ 	font-weight: 400px;
+ 	font-size: 14px;
+ 	line-height: 17px;
+ }
+
+ div.scholarships div.middle{
+ 	margin-top: 20px;
+ }
+
+div.scholarships div.middle div.card-middle,
+div.scholarships div.middle div.card-middle1{
+	padding-top: 110px;	
+}
+
+div.scholarships div.middle p.first,
+div.scholarships div.middle button{
+	font-size: 14px;
+}
+
+div.scholarships div.middle p.second{
+	font-size: 20px;
+}
+
+div.scholarships{
+	margin-bottom: -50px!important;
+}
+
+/********************************bg-smoke code***************************/
+
+div.bg-light{
+	background: #243F60!important;
+	height: 410px;
+	margin-bottom: 0px!important;
+}
+
+div.bg-circle-form{
+	background-image: url("");
+	height: 0px;
+	width: 0px;
+	margin: auto;
+}
+
+div.bg-circle-form form{
+	margin-left: 75px;
+}
+
+div.pt-100{
+	padding-top: 30px!important;
+}
+
+div.text-form p.first{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 120%;
+	width: 405px;
+}
+
+div.text-form p.second{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	width: 65%;
+	margin: 20px auto;
+}
+
+div.bg-circle-form div.form-group select.form-control{
+	font-size: 18px;
+	line-height: 20px;
+}
+
+div.form-group button{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+/*****************************bg-circle-form code***************************/
+
+div.ellipse-parent{
+	position: relative;
+}
+
+div.bg-ellipse{
+	background-image: url("../images/Ellipse-rotated.png");
+	height: 1085px;
+	left: 0px;
+	right: -543px;
+}
+
+h2.custom-700{
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 10px!important;
+}
+
+div.bg-ellipse div.card{
+	height: 273px;
+	width: 285px;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-left: 35px;
+}
+
+div.bg-ellipse div.card h5.card-title{
+	font-weight: 600!important;
+	font-size: 16px!important;
+}
+
+div.bg-ellipse div.card p.card-text{
+	font-weight: 400px!important;
+	font-size: 14px!important;
+}
+
+/******************************bg-ellipse code********************************/
+
+div.carousel-inner img{
+	width: 426px!important;
+	height: 196px!important;
+}
+
+div.bg-carousel-1,
+div.bg-carousel-2,
+div.bg-carousel-3,
+div.bg-carousel-4,
+div.bg-carousel-5,
+div.bg-carousel-6,
+div.bg-carousel-7{
+	height: 100px;
+}
+
+.carousel-indicators{
+    bottom: -65px !important;
+}
+
+/********************************carousel code******************************/
+
+footer{
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+
+footer div.pt-100{
+	padding-top: 10px;
+}
+
+footer p{
+	margin-bottom: 10px;
+}
+
+footer i{
+	width: 20px;
+	height: 20px;
+	margin-right: 30px;
+}
+
+footer div.end p{
+	width: 666px;
+	height: 15px;
+	width: 350px;
+	height: 33px;
+}
+
+/*******************************footer code***********************************/
+
+}
+
+/**************************@media screen code end*****************************/
